@@ -20,6 +20,7 @@ class LoginPage extends StatelessWidget {
   Widget _buildContainer() {
     return Container(
       color: Colors.cyanAccent,
+      padding: EdgeInsets.all(20.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
