@@ -33,6 +33,7 @@ class LoginPage extends StatelessWidget {
             ),
             // padding: Padding(padding: ,),
           ),
+          SizedBox(height: 10.0,),
           Container(
             color: Colors.purpleAccent,
             child: SizedBox(
@@ -40,13 +41,15 @@ class LoginPage extends StatelessWidget {
               width: 100.0,
             ),
           ),
+          SizedBox(height: 10.0,),
           Container(
             color: Colors.lightGreenAccent,
             child: SizedBox(
               height: 100.0,
               width: 100.0,
             ),
-          )
+          ),
+          SizedBox(height: 10.0,),
         ],
       ),
     );
