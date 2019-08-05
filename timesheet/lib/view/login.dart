@@ -45,12 +45,15 @@ class LoginPage extends StatelessWidget {
             ), onPressed: () {},
           ),
           SizedBox(height: 10.0,),
-          Container(
-            color: Colors.purpleAccent,
-            child: SizedBox(
-              height: 100.0,
-              width: 100.0,
-            ),
+          RaisedButton(
+                      child: Text(
+              'Google Sign in',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 24.0
+               ),
+            ), onPressed: () {},
           ),
           SizedBox(height: 10.0,),
           Container(
