@@ -42,7 +42,7 @@ class LoginPage extends StatelessWidget {
                 fontWeight: FontWeight.w600,
                 fontSize: 24.0
                ),
-            ), onPressed: () {},
+            ), onPressed: null,
           ),
           SizedBox(height: 10.0,),
           RaisedButton(
@@ -53,7 +53,7 @@ class LoginPage extends StatelessWidget {
                 fontWeight: FontWeight.w600,
                 fontSize: 24.0
                ),
-            ), onPressed: () {},
+            ), onPressed: null,
           ),
           SizedBox(height: 10.0,),
           Container(
