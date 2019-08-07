@@ -56,12 +56,15 @@ class LoginPage extends StatelessWidget {
             ), onPressed: null,
           ),
           SizedBox(height: 10.0,),
-          Container(
-            color: Colors.lightGreenAccent,
-            child: SizedBox(
-              height: 100.0,
-              width: 100.0,
-            ),
+          RaisedButton(
+                      child: Text(
+              'Facebook Sign in',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 24.0
+               ),
+            ), onPressed: null,
           ),
           SizedBox(height: 10.0,),
         ],
